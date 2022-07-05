@@ -12,7 +12,7 @@ import com.example.angular1.model.User;
 import com.example.angular1.repository.UserRepository;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class UserController {
 
 	public UserController(UserRepository userRepository) {

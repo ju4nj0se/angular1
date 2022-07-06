@@ -1,12 +1,10 @@
 package com.example.angular1;
 
 import java.util.stream.Stream;
-
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-
 import com.example.angular1.model.User;
 import com.example.angular1.repository.UserRepository;
 
